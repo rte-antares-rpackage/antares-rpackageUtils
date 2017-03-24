@@ -1,0 +1,22 @@
+Package: antaresDev
+Title: Tools for Antares package developers
+Version: 1.0.0
+Authors@R: c(
+    person("Francois", "Guillem", email = "francois.guillem@rte-france.com", role = c("aut", "cre")),
+    person("RTE", role = "cph")
+    )
+Description: This package provides utility functions used by several Antares R
+    packages. They may eventually be useful for package developers who use 
+    Antares packages.
+Depends: R (>= 3.3.2)
+License: GPL (>= 2) | file LICENSE 
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.0
+Roxygen: list(markdown = TRUE)
+Imports:
+    data.table,
+    assertthat,
+    lubridate,
+    methods
+Suggests: testthat
