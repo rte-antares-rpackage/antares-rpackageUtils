@@ -51,10 +51,13 @@ mergeByRef <- function(x, y, by = intersect(names(x), names(y)),
     assert_that(y %has_name% v)
   }
   
+  oldKey <- key(x)
+  
   # Merge the tables
   setkeyv(x, by)
   setkeyv(y, by)
   x[y, c(colsToAdd) := mget(paste0("i.", colsToAdd))]
   
+  setkeyv(x, oldKey)
   invisible(x)
 }
