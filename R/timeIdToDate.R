@@ -18,7 +18,8 @@
 #' @export
 #' 
 timeIdToDate <- function(timeId, timeStep=c("hourly", "daily", "weekly", "monthly", "annual"), 
-                         opts=simOptions()) {
+                         opts) {
+  assert_that(is.numeric(timeId))
   timeStep <- match.arg(timeStep)
   
   if (timeStep == "hourly") {

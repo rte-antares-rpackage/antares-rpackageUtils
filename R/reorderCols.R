@@ -21,7 +21,7 @@
 #' @export
 #' 
 reorderCols <- function(x) {
-  idCols <- getIdCols(x)
+  idCols <- idCols(x)
   neworder <- c(idCols, setdiff(names(x), idCols))
   setcolorder(x, neworder)
   invisible(x)

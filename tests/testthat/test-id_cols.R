@@ -1,9 +1,9 @@
 context("ID columns")
 
-describe("getIdCols", {
+describe("idCols", {
   it("returns the ID columns of a table", {
     mydata <- data.table(area = "fr", timeId = 1, LOAD = 1000)
-    expect_equal(getIdCols(mydata), c("area", "timeId"))
+    expect_equal(idCols(mydata), c("area", "timeId"))
   })
 })
 
@@ -12,7 +12,7 @@ describe("addIdCol", {
     addIdCol("dayOfWeek")
     expect_true("dayOfWeek" %in% pkgEnv$idCols)
     mydata <- data.table(area = "fr", timeId = 1, dayOfWeek = "Monday", LOAD = 1000)
-    expect_equal(getIdCols(mydata), c("area", "timeId", "dayOfWeek"))
+    expect_equal(idCols(mydata), c("area", "timeId", "dayOfWeek"))
   })
 })
 

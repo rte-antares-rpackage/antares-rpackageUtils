@@ -5,7 +5,7 @@
 \title{Convert a time id to a date}
 \usage{
 timeIdToDate(timeId, timeStep = c("hourly", "daily", "weekly", "monthly",
-  "annual"), opts = simOptions())
+  "annual"), opts)
 }
 \arguments{
 \item{timeId}{A numeric vector}

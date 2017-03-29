@@ -2,7 +2,7 @@
 
 export(addIdCol)
 export(convertTimeId)
-export(getIdCols)
+export(idCols)
 export(mergeByRef)
 export(readIniFile)
 export(reorderCols)
