@@ -4,3 +4,11 @@
 
 
 # antares-rpackageUtils
+
+
+# Check your package with r-hub 
+
+with R / RStudio, see : https://github.com/r-hub/rhub
+
+or directly with a website : https://builder.r-hub.io/
+
