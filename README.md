@@ -12,7 +12,7 @@ with R / RStudio, see : https://github.com/r-hub/rhub
 
 or directly with a website : https://builder.r-hub.io/
 
-# Use this convention naming 
+# Naming convention in antaresPackages
 
 Google R'Style, see : https://google.github.io/styleguide/Rguide.xml#identifiers
 
