@@ -14,8 +14,6 @@ or directly with a website : https://builder.r-hub.io/
 
 # Naming convention in antaresPackages
 
-Google R'Style, see : https://google.github.io/styleguide/Rguide.xml#identifiers
+Follow Hadley Style : http://adv-r.had.co.nz/Style.html
 
-If you don't find in this first ressource your answer you can use Hadley Style : http://adv-r.had.co.nz/Style.html
-
-
+DON'T Follow Google R'Style, see : http://www.edii.uclm.es/~useR-2013/slides/145.pdf
