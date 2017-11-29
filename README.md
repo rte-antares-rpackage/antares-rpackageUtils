@@ -12,3 +12,10 @@ with R / RStudio, see : https://github.com/r-hub/rhub
 
 or directly with a website : https://builder.r-hub.io/
 
+# Use this convention naming 
+
+Google R'Style, see : https://google.github.io/styleguide/Rguide.xml#identifiers
+
+If you don't find in this first ressource your answer you can use Hadley Style : http://adv-r.had.co.nz/Style.html
+
+
