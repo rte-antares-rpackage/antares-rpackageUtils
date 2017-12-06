@@ -8,9 +8,43 @@
 
 # Check your package with r-hub 
 
-with R / RStudio, see : https://github.com/r-hub/rhub
+with R / RStudio, see : https://github.com/r-hub/rhub with this command 
+
+```R
+check_for_cran()
+```
 
 or directly with a website : https://builder.r-hub.io/
+
+If you have some error like this 
+
+```R
+check_for_cran()
+Error in curl::curl_fetch_memory(url, handle = handle) : 
+  error setting certificate verify locations:
+  CAfile: /mingw64/ssl/certs/ca-bundle.crt
+  CApath: none
+  
+```
+
+You must set your proxy 
+
+ ```R
+#by example ....
+Sys.setenv(http_proxy="http://IP_PROXY:PORT_PROXY")
+Sys.setenv(https_proxy="http://IP_PROXY:PORT_PROXY"
+
+#check your parameter 
+Sys.getenv("http_proxy")
+Sys.getenv("https_proxy")
+
+#For rte
+ 
+Sys.setenv(http_proxy="http://NNI:Mdp@IP_PROXY:PORT_PROXY")
+Sys.setenv(https_proxy="http://NNI:Mdp@IP_PROXY:PORT_PROXY")
+
+ 
+ ```
 
 # Naming convention in antaresPackages
 
