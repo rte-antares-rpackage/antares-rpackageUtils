@@ -5,7 +5,7 @@
 
 # antares-rpackageUtils
 
-# fixing CRLF conversion
+# Fixing CRLF conversion
 
 Like explain [here](https://github.com/krlmlr/r-appveyor), use a .gitattributes file that takes care of fixing CRLF conversion settings that are relevant on Windows. [The one in this repo](/.gitattributes) can be used for starters.
 
